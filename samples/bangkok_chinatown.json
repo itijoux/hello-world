@@ -1,0 +1,55 @@
+{
+  "book_metadata": {
+    "trip_name": "Bangkok, Mars 2025",
+    "total_days": 7,
+    "voice": "warm_editorial_observation",
+    "language": "fr"
+  },
+  "previous_chapter_closing": "Le taxi nous a laissés à l'entrée du marché, et déjà l'odeur du jasmin se mêlait à celle de l'essence.",
+  "spread_context": {
+    "spread_id": "ch2_spread3",
+    "chapter_title": "Chinatown",
+    "spread_type": "route_detail",
+    "template": "map_left_text_right_3photos"
+  },
+  "location": {
+    "primary": "Chinatown, Bangkok",
+    "coordinates_center": [13.7401, 100.5099],
+    "neighborhood_context": "Yaowarat district, dense street-food area"
+  },
+  "time": {
+    "start": "2025-03-14T14:00:00+07:00",
+    "end": "2025-03-14T17:30:00+07:00",
+    "duration_minutes": 210,
+    "time_of_day_label": "afternoon_to_dusk"
+  },
+  "photos": [
+    {
+      "id": "IMG_4521",
+      "role": "hero",
+      "vision_tags": ["street food stall", "wok flames", "vendor"],
+      "scene_type": "street",
+      "time_of_day": "afternoon",
+      "quality": "hero"
+    },
+    {
+      "id": "IMG_4533",
+      "role": "supporting",
+      "vision_tags": ["narrow alley", "red lanterns", "crowd"],
+      "scene_type": "street",
+      "quality": "good"
+    },
+    {
+      "id": "IMG_4547",
+      "role": "supporting",
+      "vision_tags": ["bowl of noodles", "table", "chopsticks"],
+      "scene_type": "food",
+      "quality": "good"
+    }
+  ],
+  "user_ground_truth": {
+    "memo_id": "voice_023",
+    "attached_to_photos": ["IMG_4521", "IMG_4533", "IMG_4547"],
+    "transcript": "On s'est perdus deux heures dans Chinatown. Le vendeur du stand de hoy tort nous a fait signe de nous asseoir alors qu'on cherchait juste à passer. Sa femme parlait un peu français — elle a vécu à Marseille dans les années 90. Les nouilles c'était chez Nai Mong Hoi Thod, elle a insisté pour qu'on y aille."
+  }
+}
